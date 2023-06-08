@@ -25,3 +25,5 @@ Ynew=model.predict(Xnew)
 
 for i in range(len(Xnew)):
     print("X=%s,Predicted=%s, a=%s"%(Xnew[i],Ynew[i], a[i]))
+
+# By looping through the indices of Xnew, the code prints the input features, predicted values, and original target values for each sample in Xnew, providing an output summary for the model's predictions.

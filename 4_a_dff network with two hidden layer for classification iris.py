@@ -1,4 +1,4 @@
-import numpy as np
+
 from sklearn.datasets import load_iris
 from keras.models import Sequential
 from keras.layers import Dense
